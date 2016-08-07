@@ -1,0 +1,32 @@
+body {
+    background-image: url("pattern_03.jpg") ;
+    background-repeat: repeat-y repeat-x;
+}
+a:link {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+p {
+	color: #6A6A6A;
+}
+
+h1 {
+	color: #6A6A6A;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="insertintomembers.php" method="post">
+ Username: <input type="text" name="user" required > 
+ Parola: <input type="password" name="pass" required > 
+ Mail: <input type="email" name="email" required > 
+ Paypal Mail: <input type="email" name="payment_email" required > 
+
+<input type="submit">
+</form>
+
+
+</body>
+</html>

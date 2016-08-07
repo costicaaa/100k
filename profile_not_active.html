@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not logged in</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="butoane.js"></script>
+	<link rel="stylesheet" type="text/css" href="cssfila_profile_not_active.css">
+</head>
+<body>
+<div class="row" >
+<div style="text-align:center">
+	<div class="col-md-2"> <a class="sus" href="index.php">The game</a>
+	</div>
+	<div class="col-md-2"> <a class="sus" href="profilecheck.php">Profile</a>
+	</div>
+	<div class="col-md-2"> <a class="sus" href="hallofame.php">HALL OF FAME</a>
+	</div>
+	<div class="col-md-2"> <a class="sus" href="about.html">About</a>
+	</div>
+	<div class="col-md-2"> <a class="sus" href="faq.html">F.A.Q.</a>
+	</div>
+	<div class="col-md-2"> <a class="sus" href="contact.html">Contact</a>
+	</div>
+	</div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<div style="text-align:center">
+<h2> You are not logged in </h4>
+<p> You can either : </p>
+
+
+
+<div style="text-align:center">
+						<div class="col-md-5">
+							</div>
+							
+						<div class="col-md-1"> <button type="button" class="btn btn-info " onclick="location.href ='registerpage.php' ">Register </button>
+							</div>
+						<div class="col-md-1"><button type="button" class="btn btn-info " onclick=$('#loginmodal').modal('toggle')>Log in!</button>
+							</div>
+						<div class="col-md-5">
+							</div>
+						
+					</div>
+
+
+<br><br><br><br><br>
+<a class="return" href="index.php"> Return to the game and play as a guest </a>
+</div>
+<div class="container">  <!-- Loginmodal -->
+																  <!-- Modal -->
+																  <div class="modal fade" id="loginmodal" role="dialog">
+																    <div class="modal-dialog">
+																    
+																      <!-- Modal content-->
+																      <div class="modal-content">
+																        <div class="modal-header">
+																          
+																          <h4 class="modal-title">Enter your username and password to log in. </h4>
+																        </div>
+																        <div class="modal-body">
+																        <form name='form1' method='post' action='checklogin.php'>
+																        <table>
+																		<tr>
+																			<td>Username:
+																			</td>
+																			<td><input type="text" name='myusername' required >
+																			</td>
+																		</tr>
+
+																		<tr>
+																			<td>Password: 
+																			</td>
+																			<td><input type="password" name="mypassword" required > 
+																			</td>
+																		</tr>
+																		</table>
+																		<div id="button_login_modal">
+																		<br> <br>
+																		<button  type="submit" class="btn btn-warning btn-lg">Submit</button>
+																		</div>
+																		</form>
+																          
+																        </div>
+																        <br>
+																        <p> Forgot your password? <br> </p>
+																        <!-- Email form for password reset HERE -->
+																        	<form action="forgot_password.php" method="post">
+																        	Enter your registration email(not necessarily your payment email) :
+																        	<input type="email" name="forgot_password" required>
+																        	<input type="submit" value="Submit">
+																        	</form>
+
+
+																        <div class="modal-footer">
+																          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+																        </div>
+																      </div>
+																      
+																    </div>
+																  </div>
+																  
+																</div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+table {
+    margin: 0 auto;
+    float: none;
+    border-collapse: collapse;
+    text-align: center;
+}
+table, th, td {
+	color: solid black;
+	border: none;
+	padding: 10px;
+}
+td { 
+	font-weight: bold;
+	font-size: 20px;
+}
+body {
+    background-image: url("pattern_03.jpg") ;
+    background-repeat: repeat-y repeat-x;
+}
+
+
+p {
+	text-align: center;
+	font-size: 50px;
+}
+#submit_button_reg_page {
+	width: 100px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+a:link {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: underline;
+}

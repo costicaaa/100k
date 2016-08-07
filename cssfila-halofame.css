@@ -1,0 +1,51 @@
+body {
+    background-image: url("pattern_03.jpg") ;
+    background-repeat: repeat-y repeat-x;
+}
+table {
+    margin: 0 auto;
+    float: none;
+    border-collapse: collapse;
+    text-align: center;
+}
+table, th, td {
+    text-align:center;
+	color: solid black;
+	border: solid black;
+
+}
+body {
+    background-color: #0066CC;   
+
+}
+#tryagg {
+    margin: 0 auto;
+    width: 140px;
+}
+h1 {
+    margin: 0 auto;
+    float: none;
+    text-align: center; 
+    color: #999966;
+    font-size: 800%;
+}
+a:link {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: #999966;
+    background-color: transparent;
+    text-decoration: underline;
+}
